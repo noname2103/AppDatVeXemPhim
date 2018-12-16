@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">AppDatVeXemPhim</string>
+
+
     <string name="phim">Phim</string>
     <string name="tenphim">Tên Phim</string>
     <string name="noidungphim">Nội Dung Phim</string>
