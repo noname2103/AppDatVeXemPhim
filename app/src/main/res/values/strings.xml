@@ -18,5 +18,11 @@
     <string name="Nhaplaipass">Nhập lại mật khẩu</string>
     <string name="Dieukien">Khi đăng ký,tôi đã xem xét và đồng ý với Điều khoản sử dụng và Chính sách bảo mật của TH True Cinema</string>
 
-
+    //actitity login
+    <string name="login">Đăng nhập</string>
+    <string name="user">Tài khoản</string>
+    <string name="passowrd">Mật khẩu</string>
+    <string name="show_pwd">Hiển thị mật khẩu</string>
+    <string name="newUser">Tạo tài khoản</string>
+    <string name="forgot">Quên mật khẩu</string>
 </resources>
