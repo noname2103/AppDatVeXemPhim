@@ -6,7 +6,8 @@
     <string name="phim">Phim</string>
     <string name="tenphim">Tên Phim</string>
     <string name="noidungphim">Nội Dung Phim</string>
-
+    <string name="datve">Đặt Vé</string>
+    <string name="gioi_thieu">Gioi Thieu</string>
 
 
 </resources>

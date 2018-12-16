@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#800000"
@@ -23,7 +24,7 @@
         <VideoView
             android:id="@+id/videoView"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:layout_weight="1" />
 
     </LinearLayout>
@@ -42,44 +43,47 @@
             android:layout_margin="10dp"
             android:text="@string/tenphim"
             android:textColor="#050505"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/btndatve"
             android:layout_width="100dp"
             android:layout_height="40dp"
             android:background="#800000"
-            android:text="Đặt Vé"
+            android:text="@string/datve"
             android:textColor="#FFFFFF" />
     </LinearLayout>
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="5dp"
+        android:layout_height="120dp"
         android:background="#ffffff"
-        android:orientation="vertical">
+        android:layout_marginTop="5dp">
 
-        <TextView
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="10dp"
-            android:text="@string/noidungphim" />
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtNoidung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/gioi_thieu" />
+        </ScrollView>
     </LinearLayout>
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="130dp"
+        android:background="#ffffff"
         android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
-        android:background="#ffffff">
-        <TextView
+        android:layout_marginBottom="10dp">
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#fffffff"
+            >
+        </ScrollView>
     </LinearLayout>
-</ScrollView>
+
 </LinearLayout>
