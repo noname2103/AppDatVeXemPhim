@@ -2,6 +2,8 @@ package com.dxt.xuantruong.appdatvexemphim;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 public class DangKyActivity extends AppCompatActivity {
 
@@ -9,5 +11,13 @@ public class DangKyActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dang_ky);
+
+        //Button LoginBtn = (Button)findViewById(R.id.signUpBtn);
+        //LoginBtn.setOnClickListener(DangKyActivity.this);
+    }
+
+    public void onClick(View v)
+    {
+
     }
 }
