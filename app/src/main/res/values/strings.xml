@@ -7,6 +7,10 @@
     <string name="tenphim">Tên Phim</string>
     <string name="noidungphim">Nội Dung Phim</string>
 
+    <string name="datve">Đặt Vé</string>
+    <string name="gioi_thieu">Gioi Thieu</string>
+
+
     <string name="TenKh">Họ và tên</string>
     <string name="DT">Điện thoại</string>
     <string name="Pass">Mật khẩu</string>
@@ -17,6 +21,7 @@
     <string name="Dangkytk">Đăng ký tài khoản</string>
     <string name="Nhaplaipass">Nhập lại mật khẩu</string>
     <string name="Dieukien">Khi đăng ký,tôi đã xem xét và đồng ý với Điều khoản sử dụng và Chính sách bảo mật của TH True Cinema</string>
+
 
     //actitity login
     <string name="login">Đăng nhập</string>
