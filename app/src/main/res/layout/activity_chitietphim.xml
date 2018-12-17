@@ -42,12 +42,16 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="60dp"
-            android:text="Đặt Vé" />
+            android:text="Đặt Vé"
+            android:background="#800000"
+            android:textColor="#ffffff"/>
     </LinearLayout>
-
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="125dp"
+        android:layout_height="137dp"
         android:layout_marginTop="5dp"
         android:background="#ffffff"
         android:orientation="vertical">
@@ -60,5 +64,157 @@
             android:text="Nội dung film" />
 
     </LinearLayout>
+</ScrollView>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/kiemduyet"
+                android:layout_width="101dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Kiểm duyệt" />
+
+            <TextView
+                android:id="@+id/txtKiemduyet"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="TextView"
+                android:textSize="20dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/khoichieu"
+                android:layout_width="101dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Khởi Chiếu" />
+
+            <TextView
+                android:id="@+id/txtKhoichieu"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="TextView"
+                android:textSize="20dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/theloai"
+                android:layout_width="101dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Thể loại" />
+
+            <TextView
+                android:id="@+id/txtTheloai"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="TextView"
+                android:textSize="20dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/daodien"
+                android:layout_width="101dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Đạo diễn" />
+
+            <TextView
+                android:id="@+id/txtDaodien"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="TextView"
+                android:textSize="20dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/dienvien"
+                android:layout_width="101dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Diễn viên" />
+
+            <TextView
+                android:id="@+id/txtDienvien"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="TextView"
+                android:textSize="20dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/thoiluong"
+                android:layout_width="101dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Thời lượng" />
+
+            <TextView
+                android:id="@+id/txtThoiluong"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="TextView"
+                android:textSize="20dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/ngonngu"
+                android:layout_width="101dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Ngôn ngữ" />
+
+            <TextView
+                android:id="@+id/txtNgonngu"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="TextView"
+                android:textSize="20dp" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>
 
 </LinearLayout>
