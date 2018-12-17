@@ -1,6 +1,10 @@
 package com.dxt.xuantruong.appdatvexemphim;
 
 public class Phim {
+
+    private int MaPhim;
+    private String TenPhim;
+
     public int getMaPhim() {
         return MaPhim;
     }
@@ -17,8 +21,7 @@ public class Phim {
         TenPhim = tenPhim;
     }
 
-    private int MaPhim;
-    private String TenPhim;
+
     public Phim(int maPhim, String tenPhim) {
         MaPhim = maPhim;
         TenPhim = tenPhim;
