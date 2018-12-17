@@ -7,6 +7,9 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class Database extends SQLiteOpenHelper {
 
+    // Khai bao ten CSDL, ten bang, ten version
+    public static final String DATABASE_NAME = "cinema.db";
+    public static final String TABLE_NAME = "phim";
     public Database(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);
     }
